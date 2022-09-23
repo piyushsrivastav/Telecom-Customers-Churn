@@ -22,17 +22,21 @@ To Build a model that will help to identify the potential customers who have a h
 
 ### A) Logistic Regression
 Accuracy: 0.7928909952606635
+
 ![image](https://user-images.githubusercontent.com/92087972/192002110-785182a1-ee5d-4c54-9295-3be3e5d47544.png)
 ![image](https://user-images.githubusercontent.com/92087972/192001898-05f32698-eae3-4d69-93a5-d34416c5ec71.png)
 ### B) Naive Bayes
 Accuracy: 0.7464454976303317
+
 ![image](https://user-images.githubusercontent.com/92087972/192002216-6023481f-80c0-4f6b-9cbb-a7626fb0e6ba.png)
 ![image](https://user-images.githubusercontent.com/92087972/192002311-060216bd-f9e0-44fb-ad5e-82ddef9f75a5.png)
 
 ## C)KNN
 accuracy: 0.7393364928909952
+
 ![image](https://user-images.githubusercontent.com/92087972/192002468-772b9218-009a-4fe9-8afc-6825e89113e3.png)
 ![image](https://user-images.githubusercontent.com/92087972/192002550-394c8e96-45c0-4cca-bd20-c3fe6000ca4a.png)
+
 #### Accuracy for (k=19): 0.7597156398104266
 ![image](https://user-images.githubusercontent.com/92087972/192002813-ae6128fe-493d-4c55-9295-76b8c27ac9db.png)
 
