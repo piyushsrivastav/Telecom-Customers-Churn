@@ -40,14 +40,15 @@ accuracy: 0.7393364928909952
 3 different classification models are made, the logistic regression model gives us the best accuracy score for training and testing.
 Whereass KNN model gives the good accuarcy for the training but the accuracy is decreased for testing.
 
-Below message in Python shell is seen, which indicates that our App is now hosted at http://127.0.0.1:5000/ or localhost:5000
+### Below message in Python shell is seen, which indicates that our App is now hosted at 
+http://127.0.0.1:5000/ or localhost:5000
 
 The run() method of Flask class runs the application on the local development server.
 
 app.run()
 Yay, our model is ready, let’s test our bot. The above given Python script is executed from Python shell.
 
-Go to Anaconda Prompt, and run the below query.
+### Go to Anaconda Prompt, and run the below query.
 
 python app.py
 
