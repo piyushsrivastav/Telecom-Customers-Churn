@@ -1,6 +1,5 @@
 # Telecom-Customers-Churn
 ### Algorithms and libraires used: 
-- Creating a database in MYSQL server using MYSQL workbench and Importing the datasets ‘TelecomCustomerChurn1’ and ‘TelecomCustomerChurn2’ in it using mysql-connector-python package to Explore its shape and size
 - Exploratory Data Analysis: Performing detailed statistical analysis on the data using univariate, bivariate, and multivariate methods
 - Training and testing Logistic regression, KNN, and Naive Bayes models on dataset
 Building a model that will help to identify potential customers who have a higher probability to churn. This helps the company to understand the pinpoints and patterns of customer churn and increases the focus on strategizing Customer retention.
@@ -25,13 +24,7 @@ Accuracy: 0.7928909952606635
 
 ![image](https://user-images.githubusercontent.com/92087972/192002110-785182a1-ee5d-4c54-9295-3be3e5d47544.png)
 ![image](https://user-images.githubusercontent.com/92087972/192001898-05f32698-eae3-4d69-93a5-d34416c5ec71.png)
-### B) Naive Bayes
-Accuracy: 0.7464454976303317
 
-![image](https://user-images.githubusercontent.com/92087972/192002216-6023481f-80c0-4f6b-9cbb-a7626fb0e6ba.png)
-![image](https://user-images.githubusercontent.com/92087972/192002311-060216bd-f9e0-44fb-ad5e-82ddef9f75a5.png)
-
-## C)KNN
 accuracy: 0.7393364928909952
 
 ![image](https://user-images.githubusercontent.com/92087972/192002468-772b9218-009a-4fe9-8afc-6825e89113e3.png)
@@ -46,3 +39,17 @@ accuracy: 0.7393364928909952
 
 3 different classification models are made, the logistic regression model gives us the best accuracy score for training and testing.
 Whereass KNN model gives the good accuarcy for the training but the accuracy is decreased for testing.
+
+Below message in Python shell is seen, which indicates that our App is now hosted at http://127.0.0.1:5000/ or localhost:5000
+
+The run() method of Flask class runs the application on the local development server.
+
+app.run()
+Yay, our model is ready, let’s test our bot. The above given Python script is executed from Python shell.
+
+Go to Anaconda Prompt, and run the below query.
+
+python app.py
+
+* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+![image](https://user-images.githubusercontent.com/92087972/208325175-de9be58e-2d68-4db0-9d85-818cb0e7b497.png)
